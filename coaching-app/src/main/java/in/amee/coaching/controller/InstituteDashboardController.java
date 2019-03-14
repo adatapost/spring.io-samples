@@ -10,5 +10,9 @@ public class InstituteDashboardController {
 	public String index() {
 		return "institute/dashboard/index";
 	}
+	@RequestMapping("/institute/course")
+	public String course() {
+		return "institute/dashboard/course";
+	}
 
 }
